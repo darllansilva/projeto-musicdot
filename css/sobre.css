@@ -16,6 +16,7 @@ main {
     margin: auto;
     padding: 10px;
     color: var(--titulo-cor);
+    font-family: "Helvetica", "Lucida Grande", sans-serif ;
 }
 .titulo {
     padding: 10px;
@@ -27,13 +28,13 @@ main {
 
 
 .subtitulo {
-    padding: 10px;
     border-bottom: 2px solid black;
     margin-bottom: 10px;
 }
 
 p {
     padding: 10px;
+    
 }
 /* Configurações das imagens */
 
@@ -72,6 +73,52 @@ figure img {
 /* Fim configuração da imagens */
 
 /*Configurações de contatos */
+.contato_subtitulo {
+    display: inline-block;
+}
+
+.contato {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.contato--telefone {
+    margin-left: 32px;
+}
+
+.contato_info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato_info-titulo,
+.contato_info-descricao {
+    display: inline;
+}
+
+.contato_info-descrocao {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
