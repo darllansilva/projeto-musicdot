@@ -12,7 +12,8 @@
 }
 
 main {
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin: auto;
     padding: 10px;
     color: var(--titulo-cor);
@@ -39,7 +40,9 @@ p {
 /* Configurações das imagens */
 
 figure {
-    margin: 15px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 15px;   
     padding: 15px;
     background-color: whitesmoke;
     border: 1px solid lightgray;
@@ -100,6 +103,108 @@ figure img {
 .contato_info-descrocao {
     margin-left: 10px;
 }
+
+/* configurações Rodape */
+
+.rodape {
+    padding: 1.75em 0; /* pega a configuração com base no elemento pai */
+ 
+    font-size: 1.1rem; /*pega a configuração com base no html*/
+}
+
+.rodape_logo {
+    width: 6em;
+}
+
+.rodape_copyright {
+    display: inline;
+    margin-left: 1em;
+}
+
+/* configurações para funcionar com responsividade */
+
+/* tela de 850px de largura */
+@media (max-width: 850px) {
+    .contato {
+        display: block;
+        margin-left: 1em;
+    }
+}
+
+/* Configuração imagem familia para telas de 622px */
+@media (max-width: 650px) {
+    .familia-tuplen {
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+/*Configuração subtitulo contatos para telas com 446px */
+@media (max-width: 446px) {
+    .contato_subtitulo {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .contato_info {
+
+        padding-left: 5px;
+        font-size: 92em;
+        border-left:  2px solid lightgray;
+    }
+
+    .rodape {
+        font-size: .92em;
+    }
+}
+
+/* Configurações para tela de 342px */
+@media (max-width: 342px) {
+    .contato_info-descrição {
+        display: block;
+        margin-left: 1em; 
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
